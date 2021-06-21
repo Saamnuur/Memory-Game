@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ]
 
     const grid = document.querySelector('.grid')
+    var cardsChosen = []
+    var cardsChosenId = []
 
     //game board//
 
@@ -62,10 +64,34 @@ document.addEventListener('DOMContentLoaded', () => {
             var card = document.createElement('img');
             card.setAttribute('src', '../assets/images/locked.png');
             card.setAttribute('data-id', i);
-            //card.addEventListener('click,'flipcard)// - should write functoin soon.
+            //card.addEventListener('click,'flipCard)// - should write functoin soon.
             grid.appendChild(card);
         }
     }
+
+
+    //Matches//
+
+    function checkForMatch() {
+        var cards = document.querySelectorAll('img')
+        const optionOneId = cardsChosenId[0]
+        const optionTwoId = cardsChosenId[1]
+        if ()
+    }
+
+
+    //Card flip//
+
+    function flipCard() {
+        car cardID = this.getAttribute('data-id')
+        cardsChosen.push(cardArray[cardId].name)
+        cardsChosenId.push(cardId)
+        this.setAttribute('src', cardArray[cardId].img)
+        if (cardsChosen.lenth === 2) {
+            setTimeout(checkForMatch, 400)
+        }
+    }
+
 
     createBoard();
 })
