@@ -51,15 +51,15 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'rainbow',
             img: '../assets/images/solidcreamrainbow.png'
         }
-    ]
+    ];
     
-    cardArray.sort (() => 0.5 Math.random())
+    cardArray.sort (() => 0.5 - Math.random());
 
-    const grid = document.querySelector('.grid')
-    const resultsDisplay = document.querySelector('#result')
-    var cardsChosen = []
-    var cardsChosenId = []
-    var cardsWon = []
+    const grid = document.querySelector('.grid');
+    const resultDisplay = document.querySelector('#result');
+    var cardsChosen = [];
+    var cardsChosenId = [];
+    var cardsWon = [];
 
     //game board//
 
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var card = document.createElement('img');
             card.setAttribute('src', '../assets/images/locked.png');
             card.setAttribute('data-id', i);
-            //card.addEventListener('click,'flipCard)// - should write functoin soon.
+            card.addEventListener('click', flipCard);
             grid.appendChild(card);
         }
     }
@@ -81,18 +81,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
         if (cardsChosen[0] === cardsChosen[1]) {
-            alert('Well done! You found a match')
+            alert('Well done! You found a match');
+            cards[optionOneId].setAttribute('src', '../assets/images/unlocked.png')
+            cards[optionTwoId].setAttribute('src', '../assets/images/unlocked.png')
             cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', '../assets/images/locked.png')
             cards[optionTwoId].setAttribute('src', '../assets/images/locked.png')
-            alert('Oops! Not a match! Try again.')
+            alert('Oops! Not a match! Try again.');
         }
-        cardsChosen = []
-        cardsChosenId []
-        resultsDisplay.textContent = cardsWon.length
+        cardsChosen = [];
+        cardsChosenId = [];
+        resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cardArray.length/2) {
-            resultsDisplay.textContent = 'Congratulations! All the cards have been matched correctly!'
+            resultDisplay.textContent = 'Congratulations! All the cards have been matched correctly!';
         }
     }
 
@@ -100,12 +102,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //Card flip//
 
     function flipCard() {
-        car cardID = this.getAttribute('data-id')
-        cardsChosen.push(cardArray[cardId].name)
-        cardsChosenId.push(cardId)
-        this.setAttribute('src', cardArray[cardId].img)
+        var cardId = this.getAttribute('data-id');
+        cardsChosen.push(cardArray[cardId].name);
+        cardsChosenId.push(cardId);
+        this.setAttribute('src', cardArray[cardId].img);
         if (cardsChosen.lenth === 2) {
-            setTimeout(checkForMatch, 400)
+            setTimeout(checkForMatch, 500);
         }
     }
 
