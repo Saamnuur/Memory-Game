@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
         {
             name: 'explosion',
-            img: 'images/blueexplosion.png'
-        }
+            img: '../assets/images/blueexplosion.png'
+        },
         {
             name: 'explosion',
-            img: 'images/blueexplosion.png'
-        }
+            img: '../assets/images/blueexplosion.png'
+        },
         {
             name: 'diamond',
-            img: 'images/browndiamond.png'
-        }
+            img: '../assets/images/browndiamond.png'
+        },
         {
             name: 'diamond',
-            img: 'images/browndiamond.png'
-        }
+            img: '../assets/images/browndiamond.png'
+        },
         {
             name: 'lightningbolt',
-            img: 'images/greenlightningbolt.png'
-        }
+            img: '../assets/images/greenlightningbolt.png'
+        },
         {
             name: 'lightningbolt',
-            img: 'images/greenlightningbolt.png'
-        }
+            img: '../assets/images/greenlightningbolt.png'
+        },
         {
             name: 'thoughtbubble',
-            img: 'images/orangethoughtbubble.png'
-        }
+            img: '../assets/images/orangethoughtbubble.png'
+        },
         {
             name: 'thoughtbubble',
-            img: 'images/orangethoughtbubble.png'
-        }
+            img: '../assets/images/orangethoughtbubble.png'
+        },
         {
             name: 'star',
-            img: 'images/purplestar.png'
-        }
+            img: '../assets/images/purplestar.png'
+        },
         {
             name: 'star',
-            img: 'images/purplestar.png'
-        }
+            img: '../assets/images/purplestar.png'
+        },
         {
             name: 'rainbow',
-            img: 'images/solidcreamrainbow.png'
-        }
+            img: '../assets/images/solidcreamrainbow.png'
+        },
         {
             name: 'rainbow',
-            img: 'images/solidcreamrainbow.png'
+            img: '../assets/images/solidcreamrainbow.png'
         }
     ]
 
@@ -59,13 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createBoard() {
         for (let i= 0; i < cardArray.length; i++) {
-            var card = document.createElement('img')
-            card.setAttribute('src', 'assets/images/blank.png')
-            card.setAttribute('data-id', i)
+            var card = document.createElement('img');
+            card.setAttribute('src', '../assets/images/locked.png');
+            card.setAttribute('data-id', i);
             //card.addEventListener('click,'flipcard)// - should write functoin soon.
-            grid.appendChild(card)
+            grid.appendChild(card);
         }
     }
 
-    createBoard()
+    createBoard();
 })
