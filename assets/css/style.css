@@ -1,4 +1,12 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 /*Title Styling*/
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
 
 /*Grid Styling*/
 
