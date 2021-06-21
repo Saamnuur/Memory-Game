@@ -3,8 +3,9 @@
 /*Grid Styling*/
 
 .grid {
-    display:flex;
+    display:contents;
     flex-wrap: wrap;
     height: 300px;
     width: 400px ;
+    box-sizing: border-box;
 }
