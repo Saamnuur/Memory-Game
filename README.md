@@ -34,7 +34,18 @@ The footer section includes relevant links to social media sites, this encourage
 There are a few features that I would like to implement in the future, such as:
 - Different games, I would like the site to have a variety of different memory games so that users have a choice in which game they wish to play. The games would also be group together based on what they test, for example, audio tests would all be in one catogory, images test and text test, etc. 
 ### Structure
+This site currently consists of one page, and is in the following order:
+-Title
+-Small text
+-Button (with modal pop up)
+-Score
+-Game grid
+-Footer
 ### Skeleton
+Before creating the website I did have sketch the page wireframe so that I have a rough idea on how I want my site to lool.
+
+<a href="assets/docs/wireframe/landingpage-wireframe.pdf" target="_blank" >  Landing Page</a>
+
 ### Surface
 Colour Scheme
 Typography
