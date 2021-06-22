@@ -60,7 +60,32 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets/)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-Testing
+### Frameworks, Libraries & Programs Used
+- [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - For the styling and responsivness of the website Bootstrap was used.
+- [Google Fonts:](https://fonts.google.com/)
+    - Google fonts was used throught the document, Cinzel was used for the heading, the rest of the text used Raleway.
+- [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used for the social media icons which is located in the footer.
+- [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap for the modal.
+- [Git](https://git-scm.com/)
+    - Git was used for version control to commit and push to GitHub.
+- [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code.
+- [Mockflow:](https://mockflow.com/)
+    - Mockflow was used to create the wireframes during the design process.
+- [AmIResponsive:](http://ami.responsivedesign.is/#)
+    - Used to check how the layout of the website looks across different devices.
+- [W3Schools:](https://www.w3schools.com/)
+    - Used as a resource for coding section and CSS styling tips
+- [Imgbb:](https://imgbb.com/)
+    - This is the site I uploaded all my images to view for the README file.
+- [Pixibay:]( https://pixabay.com/)
+    - Used for the background image.
+- [Paint 3D:]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab
+    - Used for the card images I created.
+## Testing
 Deployment
 Credits
 Content
