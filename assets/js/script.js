@@ -79,8 +79,8 @@ cardArray.sort(() => 0.5 - Math.random())
     const optionTwoId = cardsChosenId[1]
     
     if(optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', '../assets/images/unlocked.png')
-      cards[optionTwoId].setAttribute('src', '../assets/images/unlocked.png')
+      cards[optionOneId].setAttribute('src', '../assets/images/locked.png')
+      cards[optionTwoId].setAttribute('src', '../assets/images/locked.png')
       alert('You have clicked the same image!')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
