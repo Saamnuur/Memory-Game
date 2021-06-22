@@ -32,7 +32,8 @@ There are three occasions in which an alert will appear on the page.
 The footer section includes relevant links to social media sites, this encourages the user to stay connected. Each link will open a new tab allowing for easy navigation and not having to lose anything that may of been saved on the game page.
 #### Features Left to Implement
 There are a few features that I would like to implement in the future, such as:
-- Different games, I would like the site to have a variety of different memory games so that users have a choice in which game they wish to play. The games would also be group together based on what they test, for example, audio tests would all be in one catogory, images test and text test, etc. 
+- Different games, I would like the site to have a variety of different memory games so that users have a choice in which game they wish to play. The games would also be group together based on what they test, for example, audio tests would all be in one catogory, images test and text test, etc.
+- Different difficulty levels can also be added, so the images become more and more complex as you go along. 
 ### Structure
 This site currently consists of one page, and is in the following order:
 -Title
@@ -47,10 +48,13 @@ Before creating the website I did have sketch the page wireframe so that I have 
 <a href="assets/docs/wireframe/landingpage-wireframe.pdf" target="_blank" >  Landing Page</a>
 
 ### Surface
-Colour Scheme
-Typography
-Imagery
-Features
+#### Colour Scheme
+The main theme for the game was very old school, so a mismatch colour scheme was needed to match with the game cards.
+#### Typography
+The main body text was Raleway with sans-serif as a back up. For the main title, Cinzel was used, with serif as the backup font. Both font styles were obtained from Google fonts, the first font that I chose was the title font and from the few recommended body text suggested to me on the site I felt that Raleway look best.
+#### Imagery
+The main background image used was a simple board to again match the theme of it being very old school.
+For the playing cards, I created the images myself on Paint 3D, having simple images was key.
 Technologies Used
 Testing
 Deployment
