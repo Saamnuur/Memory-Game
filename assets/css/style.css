@@ -7,6 +7,10 @@ body {
 
 h1 {
     font-family: 'Cinzel', serif;
+    padding: 2rem;
+    border: dashed;
+    border-color: darkgreen;
+    font-size: 3rem;
 }
 
 /*Grid Styling*/
