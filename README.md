@@ -18,7 +18,16 @@ Returning Visitor Goals
 •	As a returning Visitor, I would like to still feel challenged when playing the memory game.
 •	As a returning Visitor I would like to improve my memory with the game.
 ### Scope
-The features that will be used on the site are: *
+There are a few features that will be included in the site.
+#### Button
+A button will be needed for user to find instructions on how to play the game. The button was chosen so that people can have the option of chosing whether or not they would like to have instruction text or not as there are many people who already know how to play the game.
+#### Modal
+The modal will appear once the button has been selected. This will help any user that have not played the game before, or would like a slight refresh on how to play the game. Once the instructions have been read, a 'close' button is also available to remove the modal and start playing the game.
+#### Alert
+There are three occasions in which an alert will appear on the page.
+- The first being when a match is found, an alert is triggered and the user is informed that they have found a match.
+- When a match has not been found, an alert is triggered and the user is informed that they have not found a match and to try again.
+- When they have clicked the same card, an alert is triggered and the user is informed that they have clicked the same card twice.
 ### Structure
 ### Skeleton
 ### Surface
