@@ -55,7 +55,11 @@ The main body text was Raleway with sans-serif as a back up. For the main title,
 #### Imagery
 The main background image used was a simple board to again match the theme of it being very old school.
 For the playing cards, I created the images myself on Paint 3D, having simple images was key.
-Technologies Used
+## Technologies Used
+### Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets/)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 Testing
 Deployment
 Credits
