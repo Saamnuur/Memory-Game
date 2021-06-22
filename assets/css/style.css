@@ -41,7 +41,11 @@ h1 {
     width: 400px ;
     box-sizing: border-box;
 }
+/*Footer*/
 
+#footer{
+    margin: 1.5rem;
+}
 /*Media queries*/
 
 @media screen and (max-width: 510px) {
