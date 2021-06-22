@@ -1,59 +1,59 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // cards options //
+  // cards options //
 
-    const cardArray = [
-        {
-            name: 'explosion',
-            img: '../assets/images/blueexplosion.png'
-        },
-        {
-            name: 'explosion',
-            img: '../assets/images/blueexplosion.png'
-        },
-        {
-            name: 'diamond',
-            img: '../assets/images/browndiamond.png'
-        },
-        {
-            name: 'diamond',
-            img: '../assets/images/browndiamond.png'
-        },
-        {
-            name: 'lightningbolt',
-            img: '../assets/images/greenlightningbolt.png'
-        },
-        {
-            name: 'lightningbolt',
-            img: '../assets/images/greenlightningbolt.png'
-        },
-        {
-            name: 'thoughtbubble',
-            img: '../assets/images/orangethoughtbubble.png'
-        },
-        {
-            name: 'thoughtbubble',
-            img: '../assets/images/orangethoughtbubble.png'
-        },
-        {
-            name: 'star',
-            img: '../assets/images/purplestar.png'
-        },
-        {
-            name: 'star',
-            img: '../assets/images/purplestar.png'
-        },
-        {
-            name: 'rainbow',
-            img: '../assets/images/solidcreamrainbow.png'
-        },
-        {
-            name: 'rainbow',
-            img: '../assets/images/solidcreamrainbow.png'
-        }
-    ];
-    
-cardArray.sort(() => 0.5 - Math.random())
+  const cardArray = [
+    {
+      name: 'explosion',
+      img: '../assets/images/blueexplosion.png'
+    },
+    {
+      name: 'explosion',
+      img: '../assets/images/blueexplosion.png'
+    },
+    {
+      name: 'diamond',
+      img: '../assets/images/browndiamond.png'
+    },
+    {
+      name: 'diamond',
+      img: '../assets/images/browndiamond.png'
+    },
+    {
+      name: 'lightningbolt',
+      img: '../assets/images/greenlightningbolt.png'
+    },
+    {
+      name: 'lightningbolt',
+      img: '../assets/images/greenlightningbolt.png'
+    },
+    {
+      name: 'thoughtbubble',
+      img: '../assets/images/orangethoughtbubble.png'
+    },
+    {
+      name: 'thoughtbubble',
+      img: '../assets/images/orangethoughtbubble.png'
+    },
+    {
+      name: 'star',
+      img: '../assets/images/purplestar.png'
+    },
+    {
+      name: 'star',
+      img: '../assets/images/purplestar.png'
+    },
+    {
+      name: 'rainbow',
+      img: '../assets/images/solidcreamrainbow.png'
+    },
+    {
+      name: 'rainbow',
+      img: '../assets/images/solidcreamrainbow.png'
+    }
+  ];
+
+  cardArray.sort(() => 0.5 - Math.random())
 
   const grid = document.querySelector('.grid')
   const resultDisplay = document.querySelector('#result')
@@ -77,8 +77,8 @@ cardArray.sort(() => 0.5 - Math.random())
     const cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
-    
-    if(optionOneId == optionTwoId) {
+
+    if (optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', '../assets/images/locked.png')
       cards[optionTwoId].setAttribute('src', '../assets/images/locked.png')
       alert('You have clicked the same image!')
@@ -98,7 +98,7 @@ cardArray.sort(() => 0.5 - Math.random())
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
-    if  (cardsWon.length === cardArray.length/2) {
+    if (cardsWon.length === cardArray.length / 2) {
       resultDisplay.textContent = 'Congratulations! You have matched them all!'
     }
   }
@@ -109,10 +109,11 @@ cardArray.sort(() => 0.5 - Math.random())
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenId.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
-    if (cardsChosen.length ===2) {
+    if (cardsChosen.length === 2) {
       setTimeout(checkForMatch, 500)
     }
   }
 
   createBoard()
-})
+});
+
