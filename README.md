@@ -1,10 +1,9 @@
 # Memory-Game
 MS Project 2
 ## Overview
-What is this website for?
-This is a website is for those who wish to play a memory game online.
-What does it do?
-This site helps users increase their memory by matching image tiles.
+What is this website and what does it do?
+The memory game, which also may be known as, 'Matching Pairs, Match Match or Match Up' used to be and still is a classic physical card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. This game has been taken to the next level by being hosted online so it can be played anywhere, anytime, making it one step easier to train your brain.
+
 A live demo can be found [here]
 ## UX
 ### Strategy
