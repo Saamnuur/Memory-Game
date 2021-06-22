@@ -28,6 +28,11 @@ There are three occasions in which an alert will appear on the page.
 - The first being when a match is found, an alert is triggered and the user is informed that they have found a match.
 - When a match has not been found, an alert is triggered and the user is informed that they have not found a match and to try again.
 - When they have clicked the same card, an alert is triggered and the user is informed that they have clicked the same card twice.
+#### Footer
+The footer section includes relevant links to social media sites, this encourages the user to stay connected. Each link will open a new tab allowing for easy navigation and not having to lose anything that may of been saved on the game page.
+#### Features Left to Implement
+There are a few features that I would like to implement in the future, such as:
+- Different games, I would like the site to have a variety of different memory games so that users have a choice in which game they wish to play. The games would also be group together based on what they test, for example, audio tests would all be in one catogory, images test and text test, etc. 
 ### Structure
 ### Skeleton
 ### Surface
