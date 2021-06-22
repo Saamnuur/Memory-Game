@@ -54,3 +54,9 @@ h1 {
          padding: 1rem;
         }
     }
+
+    @media screen and (max-width: 510px) {
+        #braintraining {
+             font-size: 1.5rem;
+            }
+        }
