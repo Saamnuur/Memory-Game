@@ -86,8 +86,19 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
 - [Paint 3D:]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab
     - Used for the card images I created.
 ## Testing
-Deployment
-Credits
-Content
-Media
-Acknowledgements
+###Deployment
+The site is hosted using GitHub pages, deployed directly from the master branch.
+
+I first went to 'my repositories' on GitHub and selected 'New'. From here I added the repository name, kept it as 'Public' and selected 'Add a README file'.
+Once the repository was created I opened it via the 'gitpod' button located.
+All code for the course was written in GitPod.
+Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
+To ensure correct deployment, the landing page must be named index.html.
+To host my project under GitHub so others can view it and be provided with a shareable URL, on my GitHub page, in the "Settings" tab, I scrolled down to sub section 'Github Pages', I selected "Master Branch" under source and saved.
+The code can be run locally by either selecting "clone" which provides an URL one can use on their local machine
+###Credits
+All text content was created by me. I did have a search around on Google and Youtube for inspiration.
+####Content
+All images used was created by me on Paint 3D.
+####Media
+####Acknowledgements
