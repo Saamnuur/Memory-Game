@@ -38,7 +38,7 @@ h1 {
     display:contents;
     flex-wrap: wrap;
     height: 300px;
-    width: 400px ;
+    width: auto ;
     box-sizing: border-box;
 }
 /*Footer*/
@@ -47,21 +47,29 @@ h1 {
     margin: 1.5rem;
 }
 .footer-container {
-    font-size: 250%;
+    font-size: 200%;
     color: black;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    margin: 0;
+    
 }
 /*Media queries*/
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 280px) {
     h1 {
          font-size: 2rem;
          padding: 1rem;
         }
     }
 
-    @media screen and (max-width: 510px) {
+    @media screen and (max-width: 280px) {
         #braintraining {
              font-size: 1.5rem;
             }
         }
+    @media screen and (max-width: 240px) {
+            #footer-container {
+                 font-size: 2rem;
+                 padding: 0rem;
+                }
+            }
