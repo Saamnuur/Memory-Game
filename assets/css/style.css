@@ -46,6 +46,11 @@ h1 {
 #footer{
     margin: 1.5rem;
 }
+.footer-container {
+    font-size: 250%;
+    color: black;
+    margin-top: 1.5rem;
+}
 /*Media queries*/
 
 @media screen and (max-width: 510px) {
