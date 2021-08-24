@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: 'explosion',
-      img: '../assets/images/blueexplosion.png'
+      img: '../images/blueexplosion.png'
     },
     {
       name: 'explosion',
-      img: '../assets/images/blueexplosion.png'
+      img: '../images/blueexplosion.png'
     },
     {
       name: 'diamond',
-      img: '../assets/images/browndiamond.png'
+      img: '../images/browndiamond.png'
     },
     {
       name: 'diamond',
-      img: '../assets/images/browndiamond.png'
+      img: '../images/browndiamond.png'
     },
     {
       name: 'lightningbolt',
-      img: '../assets/images/greenlightningbolt.png'
+      img: '../images/greenlightningbolt.png'
     },
     {
       name: 'lightningbolt',
-      img: '../assets/images/greenlightningbolt.png'
+      img: '../images/greenlightningbolt.png'
     },
     {
       name: 'thoughtbubble',
-      img: '../assets/images/orangethoughtbubble.png'
+      img: '../images/orangethoughtbubble.png'
     },
     {
       name: 'thoughtbubble',
-      img: '../assets/images/orangethoughtbubble.png'
+      img: '../images/orangethoughtbubble.png'
     },
     {
       name: 'star',
-      img: '../assets/images/purplestar.png'
+      img: '../images/purplestar.png'
     },
     {
       name: 'star',
-      img: '../assets/images/purplestar.png'
+      img: '../images/purplestar.png'
     },
     {
       name: 'rainbow',
-      img: '../assets/images/solidcreamrainbow.png'
+      img: '../images/solidcreamrainbow.png'
     },
     {
       name: 'rainbow',
-      img: '../assets/images/solidcreamrainbow.png'
+      img: '../images/solidcreamrainbow.png'
     }
   ];
 
@@ -79,14 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', '../assets/images/locked.png');
-      cards[optionTwoId].setAttribute('src', '../assets/images/locked.png');
+      cards[optionOneId].setAttribute('src', '../images/locked.png');
+      cards[optionTwoId].setAttribute('src', '../images/locked.png');
       alert('You have clicked the same image!');
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
       alert('Well done! You found a match.');
-      cards[optionOneId].setAttribute('src', '../assets/images/unlocked.png');
-      cards[optionTwoId].setAttribute('src', '../assets/images/unlocked.png');
+      cards[optionOneId].setAttribute('src', '../images/unlocked.png');
+      cards[optionTwoId].setAttribute('src', '../images/unlocked.png');
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
       cardsWon.push(cardsChosen);
