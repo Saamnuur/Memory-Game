@@ -79,10 +79,8 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
     - Used to check how the layout of the website looks across different devices.
 - [W3Schools:](https://www.w3schools.com/)
     - Used as a resource for coding section, CSS styling tips and testing for html and css code.
-- [Imgbb:](https://imgbb.com/)
-    - This is the site I uploaded all my images to view for the README file.
-- [Pixibay:]( https://pixabay.com/)
-    - Used for the background image.
+- [Favicon:](https://favicon.io/)
+    - Used to generate my Favicon for the page.
 - [Paint 3D:]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab
     - Used for the card images I created.
 - [JsHint:](https://jshint.com/)
