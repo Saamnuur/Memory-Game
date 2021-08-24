@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: 'explosion',
-      img: '..../assets/images/blueexplosion.PNG'
+      img: '.../assets/images/blueexplosion.PNG'
     },
     {
       name: 'explosion',
-      img: '..../assets/images/blueexplosion.PNG'
+      img: '.../assets/images/blueexplosion.PNG'
     },
     {
       name: 'diamond',
-      img: '..../assets/images/browndiamond.PNG'
+      img: '.../assets/images/browndiamond.PNG'
     },
     {
       name: 'diamond',
-      img: '..../assets/images/browndiamond.PNG'
+      img: '.../assets/images/browndiamond.PNG'
     },
     {
       name: 'lightningbolt',
-      img: '..../assets/images/greenlightningbolt.PNG'
+      img: '.../assets/images/greenlightningbolt.PNG'
     },
     {
       name: 'lightningbolt',
-      img: '..../assets/images/greenlightningbolt.PNG'
+      img: '.../assets/images/greenlightningbolt.PNG'
     },
     {
       name: 'thoughtbubble',
-      img: '..../assets/images/orangethoughtbubble.PNG'
+      img: '.../assets/images/orangethoughtbubble.PNG'
     },
     {
       name: 'thoughtbubble',
-      img: '..../assets/images/orangethoughtbubble.PNG'
+      img: '.../assets/images/orangethoughtbubble.PNG'
     },
     {
       name: 'star',
-      img: '..../assets/images/purplestar.PNG'
+      img: '.../assets/images/purplestar.PNG'
     },
     {
       name: 'star',
-      img: '..../assets/images/purplestar.PNG'
+      img: '.../assets/images/purplestar.PNG'
     },
     {
       name: 'rainbow',
-      img: '..../assets/images/solidcreamrainbow.PNG'
+      img: '.../assets/images/solidcreamrainbow.PNG'
     },
     {
       name: 'rainbow',
-      img: '..../assets/images/solidcreamrainbow.PNG'
+      img: '.../assets/images/solidcreamrainbow.PNG'
     }
   ];
 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       const card = document.createElement('img');
-      card.setAttribute('src', '..../assets/images/locked.png');
+      card.setAttribute('src', '.../assets/images/locked.png');
       card.setAttribute('data-id', i);
       card.addEventListener('click', flipCard);
       grid.appendChild(card);
@@ -79,20 +79,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', '..../assets/images/locked.PNG');
-      cards[optionTwoId].setAttribute('src', '..../assets/images/locked.PNG');
+      cards[optionOneId].setAttribute('src', '.../assets/images/locked.PNG');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/locked.PNG');
       alert('You have clicked the same image!');
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
       alert('Well done! You found a match.');
-      cards[optionOneId].setAttribute('src', '..../assets/images/unlocked.PNG');
-      cards[optionTwoId].setAttribute('src', '..../assets/images/unlocked.PNG');
+      cards[optionOneId].setAttribute('src', '.../assets/images/unlocked.PNG');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/unlocked.PNG');
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute('src', '..../assets/images/locked.PNG');
-      cards[optionTwoId].setAttribute('src', '..../assets/images/locked.PNG');
+      cards[optionOneId].setAttribute('src', '.../assets/images/locked.PNG');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/locked.PNG');
       alert('Oopss! Sorry, try again.');
     }
     cardsChosen = [];
