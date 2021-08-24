@@ -4,7 +4,7 @@ MS Project 2
 What is this website and what does it do?
 The memory game, which also may be known as, 'Matching Pairs, Match Match or Match Up' used to be and still is a classic physical card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. This game has been taken to the next level by being hosted online so it can be played anywhere, anytime, making it one step easier to train your brain.
 
-A live demo can be found [here]
+A live demo can be found [https://saamnuur.github.io/Memory-Game/]
 ## UX
 ### Strategy
 What are the main goals of this site?
@@ -90,10 +90,14 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
 ## Testing
 Several different sites were utilized to validate and approve each page of the code to guarantee and ensure that there were no syntax errors, these sites included, W3C Markup Validator, W3C CSS Validator Services, Esprima and JsHint.
 
-- W3C Markup Validator - Results
-- W3C CSS Validator - Results
-- Esprima Validator (JavaScript) - Results
+- W3C Markup Validator - 
+![Results](/assets/images/readmeimages/HTMLValidationW3C.PNG?raw=true "Results")
+- W3C CSS Validator - 
+![Results](/assets/images/readmeimages/CSSValidationW3C.PNG?raw=true "Results")
+- Esprima Validator (JavaScript) - 
+![Results](/assets/images/readmeimages/JavaScript Validation.PNG?raw=true "Results")
 - JsHint - Results
+![Results](/assets/images/readmeimages/JavaScript Validation.PNG?raw=true "Results")
 
 #### Know bugs and issues
 
