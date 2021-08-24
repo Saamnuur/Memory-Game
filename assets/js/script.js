@@ -79,20 +79,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', '../images/locked.png');
-      cards[optionTwoId].setAttribute('src', '../images/locked.png');
+      cards[optionOneId].setAttribute('src', 'images/locked.png');
+      cards[optionTwoId].setAttribute('src', 'images/locked.png');
       alert('You have clicked the same image!');
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
       alert('Well done! You found a match.');
-      cards[optionOneId].setAttribute('src', '../images/unlocked.png');
-      cards[optionTwoId].setAttribute('src', '../images/unlocked.png');
+      cards[optionOneId].setAttribute('src', 'images/unlocked.png');
+      cards[optionTwoId].setAttribute('src', 'images/unlocked.png');
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute('src', '../assets/images/locked.png');
-      cards[optionTwoId].setAttribute('src', '../assets/images/locked.png');
+      cards[optionOneId].setAttribute('src', 'images/locked.png');
+      cards[optionTwoId].setAttribute('src', 'images/locked.png');
       alert('Oopss! Sorry, try again.');
     }
     cardsChosen = [];
