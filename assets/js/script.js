@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: 'explosion',
-      img: 'Memory-Game/tree/master/assets/images/blueexplosion.png'
+      img: '.../assets/images/blueexplosion.png'
     },
     {
       name: 'explosion',
-      img: 'Memory-Game/tree/master/assets/images/blueexplosion.png'
+      img: '.../assets/images/blueexplosion.png'
     },
     {
       name: 'diamond',
-      img: 'Memory-Game/tree/master/assets/images/browndiamond.png'
+      img: '.../assets/images/browndiamond.png'
     },
     {
       name: 'diamond',
-      img: 'Memory-Game/tree/master/assets/images/browndiamond.png'
+      img: '.../assets/images/browndiamond.png'
     },
     {
       name: 'lightningbolt',
-      img: 'Memory-Game/tree/master/assets/images/greenlightningbolt.png'
+      img: '.../assets/images/greenlightningbolt.png'
     },
     {
       name: 'lightningbolt',
-      img: 'Memory-Game/tree/master/assets/images/greenlightningbolt.png'
+      img: '.../assets/images/greenlightningbolt.png'
     },
     {
       name: 'thoughtbubble',
-      img: 'Memory-Game/tree/master/assets/images/orangethoughtbubble.png'
+      img: '.../assets/images/orangethoughtbubble.png'
     },
     {
       name: 'thoughtbubble',
-      img: 'Memory-Game/tree/master/assets/images/orangethoughtbubble.png'
+      img: '.../assets/images/orangethoughtbubble.png'
     },
     {
       name: 'star',
-      img: 'Memory-Game/tree/master/assets/images/purplestar.png'
+      img: '.../assets/images/purplestar.png'
     },
     {
       name: 'star',
-      img: 'Memory-Game/tree/master/assets/images/purplestar.png'
+      img: '.../assets/images/purplestar.png'
     },
     {
       name: 'rainbow',
-      img: 'Memory-Game/tree/master/assets/images/solidcreamrainbow.png'
+      img: '.../assets/images/solidcreamrainbow.png'
     },
     {
       name: 'rainbow',
-      img: 'Memory-Game/tree/master/assets/images/solidcreamrainbow.png'
+      img: '.../assets/images/solidcreamrainbow.png'
     }
   ];
 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       const card = document.createElement('img');
-      card.setAttribute('src', 'Memory-Game/tree/master/assets/images/locked.png');
+      card.setAttribute('src', '.../assets/images/locked.png');
       card.setAttribute('data-id', i);
       card.addEventListener('click', flipCard);
       grid.appendChild(card);
@@ -79,20 +79,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', 'Memory-Game/tree/master/assets/images/locked.png');
-      cards[optionTwoId].setAttribute('src', 'Memory-Game/tree/master/assets/images/locked.png');
+      cards[optionOneId].setAttribute('src', '.../assets/images/locked.png');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/locked.png');
       alert('You have clicked the same image!');
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
       alert('Well done! You found a match.');
-      cards[optionOneId].setAttribute('src', 'Memory-Game/tree/master/assets/images/unlocked.png');
-      cards[optionTwoId].setAttribute('src', 'Memory-Game/tree/master/assets/images/unlocked.png');
+      cards[optionOneId].setAttribute('src', '.../assets/images/unlocked.png');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/unlocked.png');
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute('src', 'Memory-Game/tree/master/assets/images/locked.png');
-      cards[optionTwoId].setAttribute('src', 'Memory-Game/tree/master/assets/images/locked.png');
+      cards[optionOneId].setAttribute('src', '.../assets/images/locked.png');
+      cards[optionTwoId].setAttribute('src', '.../assets/images/locked.png');
       alert('Oopss! Sorry, try again.');
     }
     cardsChosen = [];
