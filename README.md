@@ -114,8 +114,8 @@ I also added a fixed height and width, later on the width had to be changed to '
 - As a first time user I need to understand the site/game purpose.
 A modal with instructions on how to play the game was added. This was to ensure that if anyone has not played this game before, there is an option for them to find out how to play the game. The modal was very simple and a 'how to play' button was added.
 
-![alt text](https://github.com/Saamnuur/Memory-Game/blob/master/assets/images/readmeimages/howtoplaybutton.PNG "How to play button")
-![alt text](https://github.com/Saamnuur/Memory-Game/blob/master/assets/images/readmeimages/howtoplaymodal.PNG "How to play modal")
+![How to pllay button](/assets/images/readmeimages/howtoplaybutton.PNG?raw=true "How to play button")
+![How to play modal](/assets/images/readmeimages/howtoplaymodal.PNG?raw=true "How to play modal")
 
 - As a first time user I want to be able to enjoy playing the memory game.
  A simple page was created for this game mainly with the purpose of just this game. This allows the user to not be interrupted or distracted.
@@ -125,7 +125,7 @@ Rather than a small grid, I ensured that there were 12 cards you can flip. With 
 - As a returning Visitor I would like to improve my memory with the game.
 The cards are matched randomly, this allows you to constantly have to find new pairs, figure out which one you've previously seen, and how you can match them. The score function also allows you to track how many you have got right, this can be compared to your previous games which allows you to see if there has been an improvement with your memory.
 
-![alt text](https://github.com/Saamnuur/Memory-Game/blob/master/assets/images/readmeimages/score.PNG "Score")
+![Score](/assets/images/readmeimages/score.PNG?raw=true "Score")
 
 ### Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch.
