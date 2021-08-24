@@ -134,13 +134,31 @@ The cards are matched randomly, this allows you to constantly have to find new p
 ### Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch.
 
-I first went to 'my repositories' on GitHub and selected 'New'. From here I added the repository name, kept it as 'Public' and selected 'Add a README file'.
-Once the repository was created I opened it via the 'gitpod' button located.
+#### The steps to creating a new repository is as follows:
+1. Go to 'my repositories' on GitHub and selected 'New'. From here I added the repository name, kept it as 'Public' and selected 'Add a README file'.
+2. Once the repository was created I opened it via the 'gitpod' button located.
+
 All code for the course was written in GitPod.
 Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
+
+#### Deployment steps is as follows:
+To host my project under GitHub so others can view it and be provided with a shareable URL.
+1. Log into Github
+2. Locate your specific repository that you wish to deploy
+3. Once on the page, select the 'settings' button, this can be found next to 'Insights' and right above 'add file'.
+![Settings](/assets/images/readmeimages/settings.PNG?raw=true "Settings")
+4. Once you've landed on the page, scroll all the way to the second last topic which is titled 'GitHub Page', here you have a link, which you would eed to select to access.
+![Redirect](/assets/images/readmeimages/redirect.PNG?raw=true "Redirect")
+5. When redirect you will now be on a page soley dedicated to 'GitHub Pages', here you would click on 'none' which is a button under the 'source' section. A small dropdown will appear. From here you will select the branch your reository is in, for mine it was 'master'.
+![Source](/assets/images/readmeimages/source.PNG?raw=true "Source")
+6. Then select 'Save'.
+7. Your site is now published, a link is now available for you to access.
+![Published](/assets/images/readmeimages/published.PNG?raw=true "Published")
+
 To ensure correct deployment, the landing page must be named index.html.
-To host my project under GitHub so others can view it and be provided with a shareable URL, on my GitHub page, in the "Settings" tab, I scrolled down to sub section 'Github Pages', I selected "Master Branch" under source and saved.
-The code can be run locally by either selecting "clone" which provides an URL one can use on their local machine
+#### Cloning:
+The code can be run locally by either selecting "clone" which provides an URL one can use on their local machine.
+![Clone](/assets/images/readmeimages/clone.PNG?raw=true "Clone")
 ### Credits
 All text content was created by me. I did have a search around on Google and Youtube for inspiration.
 #### Content
