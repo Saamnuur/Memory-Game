@@ -107,9 +107,11 @@ The first cause of the overspill was the grid for the game which contained all t
 
 I also added a fixed height and width, later on the width had to be changed to 'auto' as it was causing an overspill.
 
-![Overspill error](/assets/images/readmeimages/overspill.PNGraw=true "Overspill error  ")
+![Overspill error](/assets/images/readmeimages/overspill.PNG?raw=true "Overspill error")
 
 - The footer did cause several issues. The first being that the size of the icons were not adjusting properly to the different screen sizes. To fix this I put it in a container to single it out and add a more customised styling. The next issues was also the overspill. Once most of the site was conplete it was hard to figure out what was causing it so with the process of elimination, I cut each container out and checked how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
+
+![Footer size](/assets/images/readmeimages/footersize.PNG?raw=true "footer size")
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
