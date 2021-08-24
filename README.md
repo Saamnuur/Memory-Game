@@ -110,12 +110,16 @@ I also added a fixed height and width, later on the width had to be changed to '
 - The footer did cause several issues. The first being that the size of the icons were not adjusting properly to the different screen sizes. To fix this I put it in a container to single it out and add a more customised styling. The next issues was also the overspill. Once most of the site was conplete it was hard to figure out what was causing it so with the process of elimination, I cut each container out and checked how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
 
 ### Testing User Stories from User Experience (UX) Section
-First Time Visitor Goals
-•	As a first time user I need to understand the site/game purpose.
-•	As a first time user I want to be able to enjoy playing the memory game.
-Returning Visitor Goals
-•	As a returning Visitor, I would like to still feel challenged when playing the memory game.
-•	As a returning Visitor I would like to improve my memory with the game.
+#### First Time Visitor Goals
+- As a first time user I need to understand the site/game purpose.
+A modal with instructions on how to play the game was added. This was to ensure that if anyone has not played this game before, there is an option for them to find out how to play the game. The modal was very simple and a 'how to play' button was added.
+- As a first time user I want to be able to enjoy playing the memory game.
+ A simple page was created for this game mainly with the purpose of just this game. This allows the user to not be interrupted or distracted.
+#### Returning Visitor Goals
+- As a returning Visitor, I would like to still feel challenged when playing the memory game.
+Rather than a small grid, I ensured that there were 12 cards you can flip. With the random card generator which was created using javascript the likelyhood of you having the same card matches in the same spot is very low. 
+- As a returning Visitor I would like to improve my memory with the game.
+The cards are matched randomly, this allows you to constantly have to find new pairs, figure out which one you've previously seen, and how you can match them. The score function also allows you to track how many you have got right, this can be compared to your previous games which allows you to see if there has been an improvement with your memory.
 ### Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch.
 
