@@ -162,6 +162,10 @@ The code can be run locally by either selecting "clone" which provides an URL on
 ### Credits
 All text content was created by me. I did have a search around on Google and Youtube for inspiration.
 #### Content
-All images used was created by me on Paint 3D.
+All contents was written by the developer (myself).
 #### Media
+All images were created by my on Paint 3D.
 #### Acknowledgements
+- Youtube was very helpful, there were many videos which helped guide me. I also did comment on some of the videos, other users sent over some responses to help.
+- Slack was very helpful througout, when checking if anyone had the same error and the solution to the errors were also found.
+- Family was a big help as they looked over and tested what I had done to make sure it was fully functioning.
