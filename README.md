@@ -107,6 +107,8 @@ The first cause of the overspill was the grid for the game which contained all t
 
 I also added a fixed height and width, later on the width had to be changed to 'auto' as it was causing an overspill.
 
+![Overspill error](/assets/images/readmeimages/overspill.PNGraw=true "Overspill error  ")
+
 - The footer did cause several issues. The first being that the size of the icons were not adjusting properly to the different screen sizes. To fix this I put it in a container to single it out and add a more customised styling. The next issues was also the overspill. Once most of the site was conplete it was hard to figure out what was causing it so with the process of elimination, I cut each container out and checked how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -114,7 +116,7 @@ I also added a fixed height and width, later on the width had to be changed to '
 - As a first time user I need to understand the site/game purpose.
 A modal with instructions on how to play the game was added. This was to ensure that if anyone has not played this game before, there is an option for them to find out how to play the game. The modal was very simple and a 'how to play' button was added.
 
-![How to pllay button](/assets/images/readmeimages/howtoplaybutton.PNG?raw=true "How to play button")
+![How to play button](/assets/images/readmeimages/howtoplaybutton.PNG?raw=true "How to play button")
 ![How to play modal](/assets/images/readmeimages/howtoplaymodal.PNG?raw=true "How to play modal")
 
 - As a first time user I want to be able to enjoy playing the memory game.
