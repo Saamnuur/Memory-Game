@@ -86,6 +86,18 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
 - [Paint 3D:]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab
     - Used for the card images I created.
 ## Testing
+Several different sites were utilized to validate and approve each page of the code to guarantee and ensure that there were no syntax errors, these sites included, W3C Markup Validator, W3C CSS Validator Services, Esprima and JsHint.
+
+- W3C Markup Validator - Results
+- W3C CSS Validator - Results
+- Esprima Validator (JavaScript) - Results
+- JsHint - Results
+
+#### Know bugs and issues
+
+- Screen size was the main know issue, on devices smaller than 300px or 320px, the site no longer ecome responsive and had an overspill which cause you to have to scroll to the right slightly to view the entire page. This can be seen below. The first task was to find out what was causing the overspill, this was done by a process of elimination, I cut each container out and check how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I changed the width of my grid to 'auto', I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
+
+
 ### Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch.
 
