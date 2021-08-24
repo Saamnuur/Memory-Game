@@ -78,13 +78,17 @@ For the playing cards, I created the images myself on Paint 3D, having simple im
 - [AmIResponsive:](http://ami.responsivedesign.is/#)
     - Used to check how the layout of the website looks across different devices.
 - [W3Schools:](https://www.w3schools.com/)
-    - Used as a resource for coding section and CSS styling tips
+    - Used as a resource for coding section, CSS styling tips and testing for html and css code.
 - [Imgbb:](https://imgbb.com/)
     - This is the site I uploaded all my images to view for the README file.
 - [Pixibay:]( https://pixabay.com/)
     - Used for the background image.
 - [Paint 3D:]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab
     - Used for the card images I created.
+- [JsHint:](https://jshint.com/)
+    - Used for testing JavaScript code.
+- [Esprima:](https://esprima.org/demo/validate.html)
+    - Used for testing JavaScript code.
 ## Testing
 Several different sites were utilized to validate and approve each page of the code to guarantee and ensure that there were no syntax errors, these sites included, W3C Markup Validator, W3C CSS Validator Services, Esprima and JsHint.
 
@@ -95,9 +99,23 @@ Several different sites were utilized to validate and approve each page of the c
 
 #### Know bugs and issues
 
-- Screen size was the main know issue, on devices smaller than 300px or 320px, the site no longer ecome responsive and had an overspill which cause you to have to scroll to the right slightly to view the entire page. This can be seen below. The first task was to find out what was causing the overspill, this was done by a process of elimination, I cut each container out and check how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I changed the width of my grid to 'auto', I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
+- Screen size was the main know issue, on devices smaller than 300px or 320px, the site was no longer responsive and had an overspill which caused you to scroll to the right slightly to view the entire page. This can be seen below.
 
+The first cause of the overspill was the grid for the game which contained all the cards that needed flippig. I had to set the styling to:
+ display:contents;
+ flex-wrap: wrap;
 
+I also added a fixed height and width, later on the width had to be changed to 'auto' as it was causing an overspill.
+
+- The footer did cause several issues. The first being that the size of the icons were not adjusting properly to the different screen sizes. To fix this I put it in a container to single it out and add a more customised styling. The next issues was also the overspill. Once most of the site was conplete it was hard to figure out what was causing it so with the process of elimination, I cut each container out and checked how the page looked. Based off this, the container causing the issue was the footer container, but also, it was due to my grid having a width of 400px. I added a media query to the footer container with a max width of 240px, this was to make the icons smaller when the screen size reduced. 
+
+### Testing User Stories from User Experience (UX) Section
+First Time Visitor Goals
+•	As a first time user I need to understand the site/game purpose.
+•	As a first time user I want to be able to enjoy playing the memory game.
+Returning Visitor Goals
+•	As a returning Visitor, I would like to still feel challenged when playing the memory game.
+•	As a returning Visitor I would like to improve my memory with the game.
 ### Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch.
 
